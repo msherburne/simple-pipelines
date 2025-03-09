@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "simple-pipelines"
+version = "0.1.0"
+description = ""
+authors = ["Mathieu Sherburne <mathieusherburne@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.3"
+networkx = ">=2.4"
+plotly = "^6.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

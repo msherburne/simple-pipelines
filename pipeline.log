@@ -1,0 +1,15 @@
+[INFO] Executing Step step: Process Users
+[SUCCESS] Step Completed step: Process Users | output_shape: (5, 4)
+[INFO] Executing Step step: Process Transactions
+[SUCCESS] Step Completed step: Process Transactions | output_shape: (5, 2)
+[INFO] Executing Step step: Merge Users & Transactions
+[SUCCESS] Step Completed step: Merge Users & Transactions | output_shape: (5, 4)
+[INFO] Executing Step step: Add Classification Column
+[SUCCESS] Step Completed step: Add Classification Column | output_shape: (5, 5)
+[INFO] Evaluating Condition step: Check VIP Status
+[SUCCESS] Condition Met condition: is_vip | step: Check VIP Status
+[INFO] Executing Step step: Post Condition Processing
+[SUCCESS] Step Completed step: Post Condition Processing | output_shape: (5, 6)
+[INFO] Executing Output step: Final Output
+[SUCCESS] Output Completed step: Final Output
+[SUCCESS] Pipeline Execution Finished pipeline: Advanced Pipeline
