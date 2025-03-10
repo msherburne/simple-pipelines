@@ -137,7 +137,9 @@ To visualize the pipeline, call the `visualize` method:
 pipeline.visualize()
 ```
 
-This will generate an interactive left-to-right visualization of the pipeline using Plotly without Graphviz.
+This will generate an interactive left-to-right visualization of the pipeline using Plotly.
+
+![Visualization](./img.png)
 
 ## 📝 Contributing
 
