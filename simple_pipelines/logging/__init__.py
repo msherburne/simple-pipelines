@@ -25,7 +25,7 @@ class Logger:
         """Logs a message only if its level is in the allowed list."""
         if level in self.levels:
             formatted_message = f"[{level.name}] {message} " + " | ".join(f"{k}: {v}" for k, v in kwargs.items())
-            self.publish_function(formatted_message)
+            self.publish_function(formatted_message.strip())
 
     def info(self, message: str, **kwargs: Any) -> None:
         """Logs an INFO level message."""
